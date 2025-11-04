@@ -1,8 +1,6 @@
 # Quantum ROM
 We implement here a Qiskit function that takes an input, a classical Boolean function $f:\mathbb F_2^n \to \mathbb F_2^d$, and outputs the oracle
-$$
-U_f : \ket{x} \ket{y} \mapsto \ket{x}\ket{y \oplus f(x)}
-$$
+$$U_f : \ket{x} \ket{y} \mapsto \ket{x}\ket{y \oplus f(x)}$$
 and verify its correctness for small $n$ and $d$.
 
 ## Method
